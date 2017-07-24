@@ -2,6 +2,7 @@ let moment = require('moment');
 const chalk = require('chalk');
 let specifics = moment().format('dddd, MMMM Do YYYY, h:mm:ss a');
 let day = moment().format('DDDo');
+let start = moment().startOf('minute');
 let now = moment();
 let midnight = moment(now);
 midnight.hour(0);
