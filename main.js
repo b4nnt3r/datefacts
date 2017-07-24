@@ -28,6 +28,6 @@ if (leap === true) {
 console.log(moment);
 console.log('It is ' + chalk.cyanBright(specifics));
 console.log('It is the ' + chalk.magentaBright(day) + ' of the year.');
-console.log('It is ' + chalk.redBright(seconds) + ' seconds into the day.');
+console.log('It is ' + chalk.cyanBright(seconds) + ' seconds into the day.');
 console.log('It ' + chalk.yellowBright(savings) + ' during Daylight Savings Time.');
-console.log('It ' + chalk.cyanBright(leap) + ' a leap year');
+console.log('It ' + chalk.redBright(leap) + ' a leap year');
